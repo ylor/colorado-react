@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "wid": 1,
     "day": "Monday",
     "exercises": {
       "Stiff-Legged Deadlift with Barbell": {
@@ -32,6 +33,16 @@
       },
       "Biceps Curl with Barbell": {
         "negative": true
+      }
+    }
+  },
+  {
+    "id": 2,
+    "wid": null,
+    "day": "Tuesday",
+    "exercises": {
+      "🎉": {
+        "negative": false
       }
     }
   }
