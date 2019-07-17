@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "day": "Monday",
+    "exercises": {
+      "Stiff-Legged Deadlift with Barbell": {
+        "negative": false
+      },
+      "Leg Extension Machine": {
+        "negative": true
+      },
+      "Squat with Barbell": {
+        "negative": false
+      },
+      "Leg Curl Machine": {
+        "negative": false
+      },
+      "Bent-Armed Pullover with EZ-Curl Bar": {
+        "negative": false
+      },
+      "Lat-Machine Pulldown to Chest": {
+        "negative": false
+      },
+      "Overhead Press with Barbell": {
+        "negative": false
+      },
+      "Chin-Up": {
+        "negative": true
+      },
+      "Overhead Triceps Extension with Dumbbell": {
+        "negative": false
+      },
+      "Biceps Curl with Barbell": {
+        "negative": true
+      }
+    }
+  }
+]
