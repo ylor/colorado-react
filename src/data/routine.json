@@ -1,49 +1,60 @@
 [
-  {
-    "id": 1,
-    "wid": 1,
-    "day": "Monday",
-    "exercises": {
-      "Stiff-Legged Deadlift with Barbell": {
-        "negative": false
-      },
-      "Leg Extension Machine": {
-        "negative": true
-      },
-      "Squat with Barbell": {
-        "negative": false
-      },
-      "Leg Curl Machine": {
-        "negative": false
-      },
-      "Bent-Armed Pullover with EZ-Curl Bar": {
-        "negative": false
-      },
-      "Lat-Machine Pulldown to Chest": {
-        "negative": false
-      },
-      "Overhead Press with Barbell": {
-        "negative": false
-      },
-      "Chin-Up": {
-        "negative": true
-      },
-      "Overhead Triceps Extension with Dumbbell": {
-        "negative": false
-      },
-      "Biceps Curl with Barbell": {
-        "negative": true
-      }
-    }
-  },
-  {
-    "id": 2,
-    "wid": null,
-    "day": "Tuesday",
-    "exercises": {
-      "🎉": {
-        "negative": false
-      }
-    }
-  }
+	{
+		"id": 1,
+		"wid": 1,
+		"day": "Monday",
+		"exercises": [
+			{
+				"name": "Stiff-Legged Deadlift with Barbell",
+				"negative": false
+			},
+			{
+				"name": "Leg Extension Machine",
+				"negative": true
+			},
+			{
+				"name": "Squat with Barbell",
+				"negative": false
+			},
+			{
+				"name": "Leg Curl Machine",
+				"negative": false
+			},
+			{
+				"name": "Bent-Armed Pullover with EZ-Curl Bar",
+				"negative": false
+			},
+			{
+				"name": "Lat-Machine Pulldown to Chest",
+				"negative": false
+			},
+			{
+				"name": "Overhead Press with Barbell",
+				"negative": false
+			},
+			{
+				"name": "Chin-Up",
+				"negative": true
+			},
+			{
+				"name": "Overhead Triceps Extension with Dumbbell",
+				"negative": false
+			},
+			{
+				"name": "Biceps Curl with Barbell",
+				"negative": true
+			}
+		]
+	},
+	{
+		"id": 2,
+		"wid": null,
+		"day": "Tuesday",
+		"exercises": [
+			{
+				"name": "🎉",
+				"negative": false
+			}
+		]
+	}
 ]
