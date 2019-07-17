@@ -5,10 +5,12 @@ export default function Exercises() {
 	console.log(data)
 	return data.map(exercise => (
 		<div key={exercise.id}>
-			<h1>
-				<a href={exercise.link}>{exercise.name}</a>
-			</h1>
-			<p>{exercise.description}</p>
+			<ul>
+				<li>
+					<a href={exercise.link}>{exercise.name}</a> &mdash;{" "}
+					{exercise.description}
+				</li>
+			</ul>
 		</div>
 	))
 }

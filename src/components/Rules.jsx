@@ -5,17 +5,17 @@ export default function Rules() {
 	console.log(data)
 
 	return data.map(rule => (
-		<ul key={rule.id + "-ul"}>
-			<li key={rule.id}>
-				{rule.rule}
-				{rule.note ? (
-					<ul key={rule.id + "-nested"}>
-						<li key={rule.id + "-note"}>{rule.note}</li>
-					</ul>
-				) : (
-					""
-				)}
-			</li>
-		</ul>
+		<div key={"rule-" + rule.id}>
+			<ul>
+				<li>
+					{rule.rule}
+					{rule.note ? (
+						<ul>
+							<li>{rule.note}</li>
+						</ul>
+					) : null}
+				</li>
+			</ul>
+		</div>
 	))
 }
