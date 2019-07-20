@@ -10,10 +10,6 @@
 html {
 }
 body {
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	max-width: 960px;
-	padding: 16px;
 	background: var(--bg-color);
 	color: var(--text-color);
 	font-family: var(--font-stack);
