@@ -7,11 +7,13 @@ export default function Routine() {
 			<h1>{routine.wid === null ? `Off` : `Workout #${routine.wid}`}</h1>
 			<ol>
 				{routine.exercises.map(exercise => (
-					<li key={exercise.name}>
-						{exercise.negative ? exercise.name + " - Negative" : exercise.name}
+					<li key={exercise.id}>
+						{exercise.name}
+						{exercise.negative ? <span> &mdash; Negative</span> : null}
 					</li>
 				))}
 			</ol>
+			<hr />
 		</div>
 	))
 }
