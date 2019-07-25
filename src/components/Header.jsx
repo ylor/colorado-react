@@ -12,6 +12,7 @@ const StyledNav = styled.nav`
 	align-items: center;
 	a {
 		text-decoration: none;
+		text-transform: uppercase;
 	}
 	ul {
 		margin: 0;
